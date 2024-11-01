@@ -22,3 +22,9 @@
 .topnav a:hover {
     color: var(--color1);
 }
+
+.topnav img {
+    display: block;
+    float: left;
+    padding: 8px 30px;
+}
