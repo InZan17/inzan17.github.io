@@ -1,21 +1,21 @@
 .section {
     display: flex;
     flex-direction: row;
+    margin: auto;
+    max-width: 1400px;
 }
 
 .section .left {
-    background-color: #f1f1f1;
     padding: 10px;
     flex: 50%;
 }
 
 .section .right {
-    background-color: dodgerblue;
     padding: 10px;
     flex: 50%;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .section {
         flex-direction: column;
     }

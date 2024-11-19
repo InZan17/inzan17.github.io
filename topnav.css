@@ -9,7 +9,7 @@
 }
 
 .topnav a {
-    font-family: 'Sans Serif';
+    font-family: 'Sans Serif', sans-serif;
     font-weight: bold;
     float: left;
     color: #ffffff;
