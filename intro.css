@@ -20,7 +20,7 @@
     font-family: 'Sans Serif', sans-serif;
     font-size: 18px;
     margin: 8px;
-    background-color: #0f60b1; /* Green */
+    background-color: #0f60b1;
     border: none;
     color: white;
     padding: 10px 48px;
@@ -36,3 +36,4 @@
     max-width: 650px;
     width: 100%;
 }
+
