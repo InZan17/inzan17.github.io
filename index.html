@@ -7,7 +7,6 @@
         <link rel="stylesheet" href="topnav.css">
         <link rel="stylesheet" href="section.css">
         <link rel="stylesheet" href="general.css">
-        <link rel="stylesheet" href="intro.css">
     </head>
     <body>
         <div class="topnav">
@@ -22,14 +21,37 @@
         </div>
         <div class="section">
             <div class="left center-content">
-                <div class="intro">
+                <div>
                     <h1>Dyad Launcher</h1>
                     <p>A new Minecraft launcher which you can fully customize.</p>
-                    <a href="#download">Download</a>
+                    <a class="button" href="#download">Download</a>
                 </div>
             </div>
             <div class="right center-content">
-                <img class="intro" src="assets/screenshot.png" alt="">
+                <img class="half-size" src="assets/screenshot.png" alt="">
+            </div>
+        </div>
+        <div class="section panel" id="about">
+            <div class="left center-text">
+                <h2>About the launcher</h2>
+                <p>
+                    This launcher offers a way to download and manage mods, modpacks and several Minecraft instances.
+                    <br>
+                    <br>
+                    This launcher doesn't use HTML and CSS for the frontend, or any native UI.
+                    Instead it uses <a href="https://github.com/not-fl3/miniquad">Miniquad</a> to render UI,
+                    and Lua (or more specifically, <a href="https://luau.org/">Luau</a>) to control the UI.
+                    <br>
+                    <br>
+                    It's able to load custom Lua code the user has made, so users will be able to make their own frontend with this launcher.
+                    The aim is to make the API as simple and as customizable as possible.
+                    <br>
+                    <br>
+                    The image to the right is a screenshot of the launcher. That should give you an idea on what I want the API to be capable of.
+                </p>
+            </div>
+            <div class="right center-content">
+                <img class="half-size" src="assets/tree_screenshot.png" alt="">
             </div>
         </div>
     </body>

@@ -1,5 +1,38 @@
 body {
     margin: 0;
+    font-family: 'Sans Serif', sans-serif;
+}
+
+h1 {
+    font-size: 44px;
+    margin: 10px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 28px;
+    margin: 10px;
+    font-weight: 800;
+}
+
+p {
+    font-size: 18px;
+    margin: 10px;
+}
+
+.button {
+    font-size: 18px;
+    margin: 8px;
+    background-color: #0f60b1;
+    border: none;
+    color: white;
+    padding: 10px 48px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 8px;
 }
 
 .center-content {
@@ -7,4 +40,14 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.panel {
+    margin-top: 48px;
+    background-color: rgb(154, 154, 154);
+    border-radius: 10px;
 }
